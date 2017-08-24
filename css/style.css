@@ -33,14 +33,14 @@ body {
     color: #fff;
     border: none;
     border-radius: 0;
-    background-color: rgba(0, 0, 0, .4);
+    background-color: #96858f;
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: #887f84;
 }
 
 .btn-light {
@@ -268,11 +268,11 @@ footer {
 /*Navigation*/
 
 a {
-  color: #fff;
+  color: #192231 !important;
 }
 
 a:hover {
-  color: #fff;
+  color: #52658f !important;
 }
 
 a:visited {
@@ -289,7 +289,7 @@ a:visited {
 
 
 .bg-primary{
-    background-color: #D4994D!important;
+    background-color: #76323f!important;
 }
 
 /*Our Services Icons*/
