@@ -289,7 +289,12 @@ a:visited {
 
 
 .bg-primary{
-    background-color: #eff0f2!important;
+    background-color: #fff !important;
+}
+
+a.btn.btn-light {
+    background: #d3d3d3;
+    color: #854a53;
 }
 
 /*Our Services Icons*/
@@ -297,19 +302,51 @@ a:visited {
 .fa-code:before{
     content: "\f121";
     color: #854a53;
+
 }
 
 .fa-laptop:before{
     content: "\f109";
     color: #854a53;
+
 }
 
 .fa-line-chart:before {
     content: "\f201";
     color: #854a53;
+
 }
 
 .fa-pencil:before {
     content: "\f040";
     color: #854a53;
+
+}
+
+i.fa.fa.fa-code.fa-stack-1x.text-primary {
+    background: #d3d3d3;
+    border-radius: 50%;
+}
+
+i.fa.fa.fa-laptop.fa-stack-1x.text-primary {
+    background: #d3d3d3;
+    border-radius: 50%;
+}
+
+i.fa.fa-line-chart.fa-stack-1x.text-primary {
+    background: #d3d3d3;
+    border-radius: 50%;
+}
+
+i.fa.fa.fa-pencil.fa-stack-1x.text-primary {
+    background: #d3d3d3;
+    border-radius: 50%;
+}
+
+.service-item {
+    color: black;
+}
+
+h2 {
+  color: black;
 }
