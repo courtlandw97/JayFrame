@@ -33,14 +33,14 @@ body {
     color: #fff;
     border: none;
     border-radius: 0;
-    background-color: #96858f;
+    background-color: #42556e;
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: #887f84;
+    background-color: #516682;
 }
 
 .btn-light {
