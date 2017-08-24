@@ -289,19 +289,19 @@ a:visited {
 
 
 .bg-primary{
-    background-color: ##A0A0A0!important;
+    background-color: #A0A0A0!important;
 }
 
 /*Our Services Icons*/
 
 .fa-code:before{
     content: "\f121";
-    color: #EC9233;
+    color: #854a53;
 }
 
 .fa-laptop:before{
     content: "\f109";
-    color: #EC9233;
+    color: #854a53;
 }
 
 .fa-line-chart:before {
@@ -311,5 +311,5 @@ a:visited {
 
 .fa-pencil:before {
     content: "\f040";
-    color: #EC9233;
+    color: #854a53;
 }
