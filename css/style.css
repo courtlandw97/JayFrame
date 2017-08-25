@@ -33,7 +33,7 @@ body {
     color: #fff;
     border: none;
     border-radius: 0;
-    /*background-color: #42556e;*/
+    background-color: #42556e;
 }
 
 .btn-dark:hover,
@@ -324,7 +324,11 @@ footer {
     padding: 15px 20px;
 }
 
+.fa fa-facebook fa-fw fa-3x{
+    color: #854a53;
+
 }
+
 /*Navigation*/
 
 a {
