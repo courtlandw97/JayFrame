@@ -176,7 +176,7 @@ hr.small {
 }
 
 
-/* Services */
+/* Our Services */
 
 .services {
     padding: 50px 0;
@@ -184,6 +184,20 @@ hr.small {
 
 .service-item {
     margin-bottom: 30px;
+}
+
+.bg-primary{
+    background-color: #fff !important;
+}
+
+a.btn.btn-light {
+    background: #d3d3d3;
+    color: #854a53;
+}
+
+a.btn.btn-light:hover{
+background:#854a53;
+color:#d3d3d3;
 }
 
 
@@ -287,21 +301,6 @@ a:visited {
 }
 
 
-
-.bg-primary{
-    background-color: #fff !important;
-}
-
-a.btn.btn-light {
-    background: #d3d3d3;
-    color: #854a53;
-}
-
-a.btn.btn-light:hover{
-background:#854a53;
-color:#d3d3d3;
-}
-
 /*Our Services Icons*/
 
 .fa-code:before{
@@ -347,6 +346,7 @@ i.fa.fa.fa-pencil.fa-stack-1x.text-primary {
     background: #d3d3d3;
     border-radius: 50%;
 }
+/*End of Our Service Icon*/
 
 .service-item {
     color: black;
@@ -354,9 +354,4 @@ i.fa.fa.fa-pencil.fa-stack-1x.text-primary {
 
 h2 {
   color: black;
-}
-
-a.btn.btn-light:hover{
-background:#854a53
-color:white;
 }
