@@ -297,6 +297,11 @@ a.btn.btn-light {
     color: #854a53;
 }
 
+a.btn.btn-light:hover{
+background:#854a53;
+color:#d3d3d3;
+}
+
 /*Our Services Icons*/
 
 .fa-code:before{
@@ -349,4 +354,9 @@ i.fa.fa.fa-pencil.fa-stack-1x.text-primary {
 
 h2 {
   color: black;
+}
+
+a.btn.btn-light:hover{
+background:#854a53
+color:white;
 }
