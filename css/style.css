@@ -29,12 +29,10 @@ body {
 
 /* Custom Button Styles */
 
-
-
 .btn-dark {
     color: #fff;
     border: none;
-    border-radius: 0;
+    border-radius: 10p;
     background:#854a53;
     /*background-color: #42556e;*/
 }
@@ -55,10 +53,10 @@ color:#854a53;
     background-color:#d3d3d3;
 }
 
-.btn-light {
+/*.btn-light {
     color: #333;
     border: none;
-    border-radius: 0;
+    border-radius: 10px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -67,6 +65,17 @@ color:#854a53;
 .btn-light:active {
     color: #333;
     background-color: rgba(255, 255, 255, .8);
+}*/
+
+a.btn.btn-light {
+    background: #d3d3d3;
+    color: #854a53;
+    border-radius: 10px;
+}
+
+a.btn.btn-light:hover{
+background:#854a53;
+color:#d3d3d3;
 }
 
 
@@ -204,16 +213,6 @@ hr.small {
 
 .bg-primary{
     background-color: #fff !important;
-}
-
-a.btn.btn-light {
-    background: #d3d3d3;
-    color: #854a53;
-}
-
-a.btn.btn-light:hover{
-background:#854a53;
-color:#d3d3d3;
 }
 
 .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
