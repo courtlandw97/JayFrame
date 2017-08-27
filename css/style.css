@@ -32,7 +32,7 @@ body {
 .btn-dark {
     color: #fff;
     border: none;
-    border-radius: 10p;
+    border-radius: 10px;
     background:#854a53;
     /*background-color: #42556e;*/
 }
@@ -71,11 +71,15 @@ a.btn.btn-light {
     background: #d3d3d3;
     color: #854a53;
     border-radius: 10px;
+    border:none;
+
 }
 
-a.btn.btn-light:hover{
-background:#854a53;
-color:#d3d3d3;
+a.btn.btn-light:hover,
+     .btn-light:focus,
+     .btn-light:active{
+        background:#854a53;
+        color:#d3d3d3;
 }
 
 
