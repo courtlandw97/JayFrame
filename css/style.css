@@ -27,7 +27,7 @@ body {
 }
 
 
-/* Custom Button Styles */
+/* Button Styles */
 
 .btn-dark {
     color: #fff;
@@ -352,11 +352,6 @@ footer {
     display: none;
     padding: 15px 20px;
 }
-
-fa-instagram fa-fw fa-3x{
-    color: #854a53;
-}
-
 
 /*Navigation*/
 
