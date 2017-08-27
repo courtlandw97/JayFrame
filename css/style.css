@@ -29,18 +29,30 @@ body {
 
 /* Custom Button Styles */
 
+
+
 .btn-dark {
     color: #fff;
     border: none;
     border-radius: 0;
+    background:#854a53;
     /*background-color: #42556e;*/
+}
+
+#text-btn{
+    color:#d3d3d3; 
+}
+
+#text-btn:hover{
+color:#854a53;
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
-    color: #fff;
-    background-color: #516682;
+    color: #854a53;
+    /*background-color: #516682;*/
+    background-color:#d3d3d3;
 }
 
 .btn-light {
@@ -168,6 +180,10 @@ hr.small {
     background-size: cover;
 }
 
+#menu-toggle{
+    background: #854a53;
+
+}
 
 /* About */
 
@@ -199,6 +215,16 @@ a.btn.btn-light:hover{
 background:#854a53;
 color:#d3d3d3;
 }
+
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+color:#d3d3d3;
+
+}
+
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before:hover{
+color:#854a53;
+}
+
 
 /*Our Services Icons*/
 
@@ -324,16 +350,16 @@ footer {
     padding: 15px 20px;
 }
 
-/*.fa fa-facebook fa-fw fa-3x{
-    color: #854a53;*/
-
+fa-instagram fa-fw fa-3x{
+    color: #854a53;
 }
+
 
 /*Navigation*/
 
 a {
-  color: #192231 !important;
-}
+/*  color: #192231 !important;
+*/}
 
 a:hover {
   /*color: #000 !important;*/
@@ -349,9 +375,6 @@ a:visited {
   height: 40px;
   margin-top: -8px;
 }
-
-
-
 
 .service-item {
     color: black;
