@@ -90,7 +90,7 @@
                                     <strong>Web <br> Development</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#webdev" class="btn btn-light">Learn More</a>
+                                <a data-href="#webdev" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -278,13 +278,9 @@
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script>
-   $('.resume') .hide()
-  $('a[href^="#"]').on('click', function(event) {
-  $('.resume') .hide()
-      var target = $(this).attr('href');
-
-      $('.resume'+target).toggle();
-      e.preventDefault();
+    $('div.resume').hide();
+  $('a').click(function(){
+   $($(this).data('href')).slideDown().siblings('div.resume').hide();
   });
   </script>
 
