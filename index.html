@@ -90,7 +90,7 @@
                                     <strong>Web <br> Development</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="#webdev" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -141,6 +141,29 @@
         </div>
         <!-- /.container -->
     </section>
+
+  <section id="drop-down-services">
+    <div class="dd-services">
+      <div class="resume" id="webdev" style="height: 500px; width: 100%;">
+        <div class="col-md-3 col-sm-6" style="text-align: center; margin: 0 auto !important;">
+            <div class="service-item">
+                <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa fa-code fa-stack-1x text-primary"></i>
+            </span>
+                <h4>
+                    <strong>Web <br> Development</strong>
+                </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+
 
     <!-- Callout -->
     <aside class="callout">
@@ -252,6 +275,16 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+   $('.resume') .hide()
+  $('a[href^="#"]').on('click', function(event) {
+  $('.resume') .hide()
+      var target = $(this).attr('href');
+
+      $('.resume'+target).toggle();
+      e.preventDefault();
+  });
+  </script>
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
