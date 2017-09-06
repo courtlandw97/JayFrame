@@ -27,26 +27,36 @@ body {
 }
 
 
-/* Custom Button Styles */
+/* Button Styles */
 
 .btn-dark {
     color: #fff;
     border: none;
-    border-radius: 0;
-    background-color: #42556e;
+    border-radius: 10px;
+    background:#854a53;
+    /*background-color: #42556e;*/
+}
+
+#text-btn{
+    color:#d3d3d3; 
+}
+
+#text-btn:hover{
+color:#854a53;
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
-    color: #fff;
-    background-color: #516682;
+    color: #854a53;
+    /*background-color: #516682;*/
+    background-color:#d3d3d3;
 }
 
-.btn-light {
+/*.btn-light {
     color: #333;
     border: none;
-    border-radius: 0;
+    border-radius: 10px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -55,6 +65,21 @@ body {
 .btn-light:active {
     color: #333;
     background-color: rgba(255, 255, 255, .8);
+}*/
+
+a.btn.btn-light {
+    background: #d3d3d3;
+    color: #854a53;
+    border-radius: 10px;
+    border:none;
+
+}
+
+a.btn.btn-light:hover,
+     .btn-light:focus,
+     .btn-light:active{
+        background:#854a53;
+        color:#d3d3d3;
 }
 
 
@@ -168,6 +193,10 @@ hr.small {
     background-size: cover;
 }
 
+#menu-toggle{
+    background: #854a53;
+
+}
 
 /* About */
 
@@ -176,7 +205,7 @@ hr.small {
 }
 
 
-/* Services */
+/* Our Services */
 
 .services {
     padding: 50px 0;
@@ -186,6 +215,66 @@ hr.small {
     margin-bottom: 30px;
 }
 
+.bg-primary{
+    background-color: #fff !important;
+}
+
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+color:#d3d3d3;
+
+}
+
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before:hover{
+color:#854a53;
+}
+
+
+/*Our Services Icons*/
+
+.fa-code:before{
+    content: "\f121";
+    color: #854a53;
+
+}
+
+.fa-laptop:before{
+    content: "\f109";
+    color: #854a53;
+
+}
+
+.fa-line-chart:before {
+    content: "\f201";
+    color: #854a53;
+
+}
+
+.fa-pencil:before {
+    content: "\f040";
+    color: #854a53;
+
+}
+
+i.fa.fa.fa-code.fa-stack-1x.text-primary {
+    background: #d3d3d3;
+    border-radius: 50%;
+}
+
+i.fa.fa.fa-laptop.fa-stack-1x.text-primary {
+    background: #d3d3d3;
+    border-radius: 50%;
+}
+
+i.fa.fa-line-chart.fa-stack-1x.text-primary {
+    background: #d3d3d3;
+    border-radius: 50%;
+}
+
+i.fa.fa.fa-pencil.fa-stack-1x.text-primary {
+    background: #d3d3d3;
+    border-radius: 50%;
+}
+/*End of Our Service Icon*/
 
 /* Callout */
 
@@ -264,15 +353,14 @@ footer {
     padding: 15px 20px;
 }
 
-}
 /*Navigation*/
 
 a {
-  color: #192231 !important;
-}
+/*  color: #192231 !important;
+*/}
 
 a:hover {
-  color: #000 !important;
+  /*color: #000 !important;*/
 }
 
 a:visited {
@@ -284,63 +372,6 @@ a:visited {
     padding-right: 10px;
   height: 40px;
   margin-top: -8px;
-}
-
-
-
-.bg-primary{
-    background-color: #fff !important;
-}
-
-a.btn.btn-light {
-    background: #d3d3d3;
-    color: #854a53;
-}
-
-/*Our Services Icons*/
-
-.fa-code:before{
-    content: "\f121";
-    color: #854a53;
-
-}
-
-.fa-laptop:before{
-    content: "\f109";
-    color: #854a53;
-
-}
-
-.fa-line-chart:before {
-    content: "\f201";
-    color: #854a53;
-
-}
-
-.fa-pencil:before {
-    content: "\f040";
-    color: #854a53;
-
-}
-
-i.fa.fa.fa-code.fa-stack-1x.text-primary {
-    background: #d3d3d3;
-    border-radius: 50%;
-}
-
-i.fa.fa.fa-laptop.fa-stack-1x.text-primary {
-    background: #d3d3d3;
-    border-radius: 50%;
-}
-
-i.fa.fa-line-chart.fa-stack-1x.text-primary {
-    background: #d3d3d3;
-    border-radius: 50%;
-}
-
-i.fa.fa.fa-pencil.fa-stack-1x.text-primary {
-    background: #d3d3d3;
-    border-radius: 50%;
 }
 
 .service-item {
