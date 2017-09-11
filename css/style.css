@@ -53,26 +53,12 @@ color:#854a53;
     background-color:#d3d3d3;
 }
 
-/*.btn-light {
-    color: #333;
-    border: none;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-}
-
-.btn-light:hover,
-.btn-light:focus,
-.btn-light:active {
-    color: #333;
-    background-color: rgba(255, 255, 255, .8);
-}*/
-
 a.btn.btn-light {
     background: #d3d3d3;
     color: #854a53;
     border-radius: 10px;
     border:none;
-
+    cursor: pointer;
 }
 
 a.btn.btn-light:hover,
@@ -160,6 +146,7 @@ hr.small {
     z-index: 1;
     top: 0;
     right: 0;
+    background: #854a53;
 }
 
 #sidebar-wrapper.active {
@@ -191,11 +178,6 @@ hr.small {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-#menu-toggle{
-    background: #854a53;
-
 }
 
 /* About */
