@@ -323,7 +323,7 @@ i.fa.fa.fa-pencil.fa-stack-1x.text-primary {
 /* Footer */
 
 footer {
-    padding: 60px 0;
+    padding: 60px 0; /*100px*/
 }
 
 #to-top {
