@@ -38,7 +38,7 @@ body {
 }
 
 #text-btn{
-    color:#d3d3d3; 
+    color:#d3d3d3;
 }
 
 #text-btn:hover{
@@ -272,7 +272,14 @@ i.fa.fa.fa-pencil.fa-stack-1x.text-primary {
     background-size: cover;
 }
 
-
+@media (min-width: 768px) {
+.col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 50% !important;
+}
+}
+/* Portfol
 /* Portfolio */
 
 .portfolio {
