@@ -330,7 +330,7 @@ i.fa.fa.fa-pencil.fa-stack-1x.text-primary {
 /* Footer */
 
 footer {
-    padding: 60px 0; /*100px*/
+    padding: 30px 0; /*100px*/
 }
 
 #to-top {
@@ -369,4 +369,65 @@ a:visited {
 
 h2 {
   color: black;
+}
+
+/*Contact Us Form*/
+
+.form {
+  margin: 40px 20px 20px 20px;
+  padding: 30px 10px 10px 10px;
+}
+
+#heading-cont{
+    text-align: center;
+
+}
+.c-form {
+width: 70%;
+margin: 0 auto;
+}
+
+.contact-field-1 {
+  width: 48%;
+  float: left;
+  height: 40px;
+}
+
+.field {
+  border-style: solid;
+  border-width: 2.2px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #854a53;
+}
+
+.f-margin {
+  margin-left: 4%;
+}
+
+.m-box {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.contact-send {
+  margin-bottom: 50px;
+}
+
+.contact-send:hover {
+  margin-bottom: 50px;
+  background-color:  #854a53;
+  color: #d3d3d3;
+}
+
+
+a.smoth-scroll {
+    color: #000;
+}
+
+/*Edited by Gabe*/
+.col-sm-12{
+  padding-top: 15px; 
 }
